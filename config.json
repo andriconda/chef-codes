@@ -1,0 +1,5 @@
+{
+	"name" : "config",
+	"description" : "demo recipe",
+	"run_list" : ["recipe[dotnet_core]"]
+}
