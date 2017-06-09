@@ -116,10 +116,10 @@
     "platform": "ubuntu",
     "platform_version": "14.04",
     "platform_family": "debian",
-    "uptime_seconds": 616,
-    "uptime": "10 minutes 16 seconds",
-    "idletime_seconds": 554,
-    "idletime": "9 minutes 14 seconds",
+    "uptime_seconds": 2179,
+    "uptime": "36 minutes 19 seconds",
+    "idletime_seconds": 2028,
+    "idletime": "33 minutes 48 seconds",
     "network": {
       "interfaces": {
         "lo": {
@@ -234,16 +234,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "737621",
-              "packets": "8537",
+              "bytes": "3592796",
+              "packets": "45297",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "155458200",
-              "packets": "105587",
+              "bytes": "276320449",
+              "packets": "190290",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -274,23 +274,23 @@
         "surplus": "0"
       },
       "total": "1016284kB",
-      "free": "96120kB",
-      "buffers": "53440kB",
-      "cached": "604572kB",
-      "active": "475360kB",
-      "inactive": "302728kB",
-      "dirty": "28kB",
+      "free": "123684kB",
+      "buffers": "105832kB",
+      "cached": "578304kB",
+      "active": "410760kB",
+      "inactive": "393900kB",
+      "dirty": "16kB",
       "writeback": "0kB",
-      "anon_pages": "120076kB",
-      "mapped": "10888kB",
-      "slab": "126640kB",
-      "slab_reclaimable": "113868kB",
-      "slab_unreclaim": "12772kB",
-      "page_tables": "2948kB",
+      "anon_pages": "120544kB",
+      "mapped": "7932kB",
+      "slab": "72380kB",
+      "slab_reclaimable": "61768kB",
+      "slab_unreclaim": "10612kB",
+      "page_tables": "2952kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "508140kB",
-      "committed_as": "195740kB",
+      "committed_as": "196400kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "4408kB",
       "vmalloc_chunk": "34359727452kB",
@@ -1066,14 +1066,14 @@
       },
       "/dev/xvda1": {
         "kb_size": "8115168",
-        "kb_used": "1705452",
-        "kb_available": "5974440",
-        "percent_used": "23%",
+        "kb_used": "3169480",
+        "kb_available": "4510412",
+        "percent_used": "42%",
         "mount": "/",
         "total_inodes": "524288",
-        "inodes_used": "114649",
-        "inodes_available": "409639",
-        "inodes_percent_used": "22%",
+        "inodes_used": "136545",
+        "inodes_available": "387743",
+        "inodes_percent_used": "27%",
         "fs_type": "ext4",
         "mount_options": [
           "rw",
@@ -1373,13 +1373,13 @@
         },
         "/dev/xvda1": {
           "kb_size": "8115168",
-          "kb_used": "1705452",
-          "kb_available": "5974440",
-          "percent_used": "23%",
+          "kb_used": "3169480",
+          "kb_available": "4510412",
+          "percent_used": "42%",
           "total_inodes": "524288",
-          "inodes_used": "114649",
-          "inodes_available": "409639",
-          "inodes_percent_used": "22%",
+          "inodes_used": "136545",
+          "inodes_available": "387743",
+          "inodes_percent_used": "27%",
           "fs_type": "ext4",
           "mount_options": [
             "rw",
@@ -1521,13 +1521,13 @@
         },
         "/": {
           "kb_size": "8115168",
-          "kb_used": "1705452",
-          "kb_available": "5974440",
-          "percent_used": "23%",
+          "kb_used": "3169480",
+          "kb_available": "4510412",
+          "percent_used": "42%",
           "total_inodes": "524288",
-          "inodes_used": "114649",
-          "inodes_available": "409639",
-          "inodes_percent_used": "22%",
+          "inodes_used": "136545",
+          "inodes_available": "387743",
+          "inodes_percent_used": "27%",
           "fs_type": "rootfs",
           "mount_options": [
             "rw"
@@ -1579,12 +1579,12 @@
         },
         "/run/shm": {
           "kb_size": "508140",
-          "kb_used": "0",
-          "kb_available": "508140",
-          "percent_used": "0%",
+          "kb_used": "8",
+          "kb_available": "508132",
+          "percent_used": "1%",
           "total_inodes": "127035",
-          "inodes_used": "1",
-          "inodes_available": "127034",
+          "inodes_used": "3",
+          "inodes_available": "127032",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1747,14 +1747,14 @@
         "/dev/xvda1,/": {
           "device": "/dev/xvda1",
           "kb_size": "8115168",
-          "kb_used": "1705452",
-          "kb_available": "5974440",
-          "percent_used": "23%",
+          "kb_used": "3169480",
+          "kb_available": "4510412",
+          "percent_used": "42%",
           "mount": "/",
           "total_inodes": "524288",
-          "inodes_used": "114649",
-          "inodes_available": "409639",
-          "inodes_percent_used": "22%",
+          "inodes_used": "136545",
+          "inodes_available": "387743",
+          "inodes_percent_used": "27%",
           "fs_type": "ext4",
           "mount_options": [
             "rw",
@@ -1802,13 +1802,13 @@
         "none,/run/shm": {
           "device": "none",
           "kb_size": "508140",
-          "kb_used": "0",
-          "kb_available": "508140",
-          "percent_used": "0%",
+          "kb_used": "8",
+          "kb_available": "508132",
+          "percent_used": "1%",
           "mount": "/run/shm",
           "total_inodes": "127035",
-          "inodes_used": "1",
-          "inodes_available": "127034",
+          "inodes_used": "3",
+          "inodes_available": "127032",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2002,7 +2002,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 23312,
+      "_AVPHYS_PAGES": 30197,
       "_NPROCESSORS_CONF": 1,
       "_NPROCESSORS_ONLN": 1,
       "_PHYS_PAGES": 254071,
@@ -2459,6 +2459,30 @@
         "version": "3.0.26-1ubuntu0.1",
         "arch": "amd64"
       },
+      "dotnet-dev-1.0.4": {
+        "version": "1.0.4-1",
+        "arch": "amd64"
+      },
+      "dotnet-host": {
+        "version": "2.0.0-preview1-002111-00-1",
+        "arch": "amd64"
+      },
+      "dotnet-hostfxr-1.0.1": {
+        "version": "1.0.1-1",
+        "arch": "amd64"
+      },
+      "dotnet-hostfxr-1.1.0": {
+        "version": "1.1.0-1",
+        "arch": "amd64"
+      },
+      "dotnet-sharedframework-microsoft.netcore.app-1.0.5": {
+        "version": "1.0.5-1",
+        "arch": "amd64"
+      },
+      "dotnet-sharedframework-microsoft.netcore.app-1.1.2": {
+        "version": "1.1.2-1",
+        "arch": "amd64"
+      },
       "dpkg": {
         "version": "1.17.5ubuntu5.7",
         "arch": "amd64"
@@ -2538,6 +2562,14 @@
       "gir1.2-glib-2.0": {
         "version": "1.40.0-1ubuntu0.2",
         "arch": "amd64"
+      },
+      "git": {
+        "version": "1:1.9.1-1ubuntu0.5",
+        "arch": "amd64"
+      },
+      "git-man": {
+        "version": "1:1.9.1-1ubuntu0.5",
+        "arch": "all"
       },
       "gnupg": {
         "version": "1.4.16-1ubuntu2.4",
@@ -2859,6 +2891,10 @@
         "version": "1.0.12",
         "arch": "amd64"
       },
+      "liberror-perl": {
+        "version": "0.17-1.1",
+        "arch": "all"
+      },
       "libestr0": {
         "version": "0.1.9-0ubuntu2",
         "arch": "amd64"
@@ -3035,6 +3071,14 @@
         "version": "2.4.31-1+nmu2ubuntu8.3",
         "arch": "amd64"
       },
+      "liblldb-3.6": {
+        "version": "1:3.6-2ubuntu1~trusty1",
+        "arch": "amd64"
+      },
+      "libllvm3.6": {
+        "version": "1:3.6-2ubuntu1~trusty1",
+        "arch": "amd64"
+      },
       "liblocale-gettext-perl": {
         "version": "1.05-7build3",
         "arch": "amd64"
@@ -3050,6 +3094,14 @@
       "liblog-message-simple-perl": {
         "version": "0.10-1",
         "arch": "all"
+      },
+      "liblttng-ust-ctl2": {
+        "version": "2.4.0-4ubuntu1",
+        "arch": "amd64"
+      },
+      "liblttng-ust0": {
+        "version": "2.4.0-4ubuntu1",
+        "arch": "amd64"
       },
       "liblwres90": {
         "version": "1:9.9.5.dfsg-3ubuntu0.13",
@@ -3329,6 +3381,14 @@
       },
       "libudev1": {
         "version": "204-5ubuntu20.24",
+        "arch": "amd64"
+      },
+      "libunwind8": {
+        "version": "1.1-2.2ubuntu3",
+        "arch": "amd64"
+      },
+      "liburcu1": {
+        "version": "0.7.12-0ubuntu2",
         "arch": "amd64"
       },
       "libusb-0.1-4": {
@@ -4056,7 +4116,7 @@
       "/usr/bin/tmux",
       "/usr/bin/screen"
     ],
-    "ohai_time": 1496976908.0735419,
+    "ohai_time": 1496978471.2888188,
     "command": {
       "ps": "ps -ef"
     },
@@ -4141,22 +4201,22 @@
     },
     "root_group": "root",
     "recipes": [
-      "dotnet_core",
-      "dotnet_core::default"
+      "dotnet_app",
+      "dotnet_app::default"
     ],
     "expanded_run_list": [
-      "dotnet_core::default"
+      "dotnet_app::default"
     ],
     "roles": [
 
     ],
     "cookbooks": {
-      "dotnet_core": {
+      "dotnet_app": {
         "version": "0.1.0"
       }
     }
   },
   "run_list": [
-    "recipe[dotnet_core]"
+    "recipe[dotnet_app]"
   ]
 }
