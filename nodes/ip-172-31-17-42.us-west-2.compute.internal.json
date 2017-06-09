@@ -1,11 +1,15 @@
 {
   "name": "ip-172-31-17-42.us-west-2.compute.internal",
   "normal": {
+    "name": "node",
+    "description": "Runlist for installing dotnet core on ubuntu 14.04 and installing application",
+    "application": {
+      "url": "https://s3-us-west-2.amazonaws.com/andriconda-playground/New.zip",
+      "name": "New"
+    },
     "tags": [
 
-    ],
-    "name": "config",
-    "description": "demo recipe"
+    ]
   },
   "automatic": {
     "languages": {
@@ -116,10 +120,10 @@
     "platform": "ubuntu",
     "platform_version": "14.04",
     "platform_family": "debian",
-    "uptime_seconds": 2179,
-    "uptime": "36 minutes 19 seconds",
-    "idletime_seconds": 2028,
-    "idletime": "33 minutes 48 seconds",
+    "uptime_seconds": 38611,
+    "uptime": "10 hours 43 minutes 31 seconds",
+    "idletime_seconds": 38255,
+    "idletime": "10 hours 37 minutes 35 seconds",
     "network": {
       "interfaces": {
         "lo": {
@@ -234,16 +238,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "3592796",
-              "packets": "45297",
+              "bytes": "43414596",
+              "packets": "717327",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "276320449",
-              "packets": "190290",
+              "bytes": "3969262054",
+              "packets": "2723519",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -274,26 +278,26 @@
         "surplus": "0"
       },
       "total": "1016284kB",
-      "free": "123684kB",
-      "buffers": "105832kB",
-      "cached": "578304kB",
-      "active": "410760kB",
-      "inactive": "393900kB",
-      "dirty": "16kB",
+      "free": "773108kB",
+      "buffers": "2232kB",
+      "cached": "66832kB",
+      "active": "149888kB",
+      "inactive": "40364kB",
+      "dirty": "100kB",
       "writeback": "0kB",
-      "anon_pages": "120544kB",
-      "mapped": "7932kB",
-      "slab": "72380kB",
-      "slab_reclaimable": "61768kB",
-      "slab_unreclaim": "10612kB",
-      "page_tables": "2952kB",
+      "anon_pages": "121176kB",
+      "mapped": "7024kB",
+      "slab": "37392kB",
+      "slab_reclaimable": "27560kB",
+      "slab_unreclaim": "9832kB",
+      "page_tables": "2984kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "508140kB",
-      "committed_as": "196400kB",
+      "committed_as": "196528kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "4408kB",
-      "vmalloc_chunk": "34359727452kB",
+      "vmalloc_chunk": "34359727164kB",
       "hugepage_size": "2048kB"
     },
     "ip6address": "fe80::be:fff:fe63:e898",
@@ -1047,13 +1051,13 @@
       },
       "tmpfs": {
         "kb_size": "101632",
-        "kb_used": "332",
-        "kb_available": "101300",
+        "kb_used": "336",
+        "kb_available": "101296",
         "percent_used": "1%",
         "mount": "/run",
         "total_inodes": "127035",
-        "inodes_used": "300",
-        "inodes_available": "126735",
+        "inodes_used": "302",
+        "inodes_available": "126733",
         "inodes_percent_used": "1%",
         "fs_type": "tmpfs",
         "mount_options": [
@@ -1066,13 +1070,13 @@
       },
       "/dev/xvda1": {
         "kb_size": "8115168",
-        "kb_used": "3169480",
-        "kb_available": "4510412",
-        "percent_used": "42%",
+        "kb_used": "3590472",
+        "kb_available": "4089420",
+        "percent_used": "47%",
         "mount": "/",
         "total_inodes": "524288",
-        "inodes_used": "136545",
-        "inodes_available": "387743",
+        "inodes_used": "136568",
+        "inodes_available": "387720",
         "inodes_percent_used": "27%",
         "fs_type": "ext4",
         "mount_options": [
@@ -1352,12 +1356,12 @@
         },
         "tmpfs": {
           "kb_size": "101632",
-          "kb_used": "332",
-          "kb_available": "101300",
+          "kb_used": "336",
+          "kb_available": "101296",
           "percent_used": "1%",
           "total_inodes": "127035",
-          "inodes_used": "300",
-          "inodes_available": "126735",
+          "inodes_used": "302",
+          "inodes_available": "126733",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1373,12 +1377,12 @@
         },
         "/dev/xvda1": {
           "kb_size": "8115168",
-          "kb_used": "3169480",
-          "kb_available": "4510412",
-          "percent_used": "42%",
+          "kb_used": "3590472",
+          "kb_available": "4089420",
+          "percent_used": "47%",
           "total_inodes": "524288",
-          "inodes_used": "136545",
-          "inodes_available": "387743",
+          "inodes_used": "136568",
+          "inodes_available": "387720",
           "inodes_percent_used": "27%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1500,12 +1504,12 @@
         },
         "/run": {
           "kb_size": "101632",
-          "kb_used": "332",
-          "kb_available": "101300",
+          "kb_used": "336",
+          "kb_available": "101296",
           "percent_used": "1%",
           "total_inodes": "127035",
-          "inodes_used": "300",
-          "inodes_available": "126735",
+          "inodes_used": "302",
+          "inodes_available": "126733",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1521,12 +1525,12 @@
         },
         "/": {
           "kb_size": "8115168",
-          "kb_used": "3169480",
-          "kb_available": "4510412",
-          "percent_used": "42%",
+          "kb_used": "3590472",
+          "kb_available": "4089420",
+          "percent_used": "47%",
           "total_inodes": "524288",
-          "inodes_used": "136545",
-          "inodes_available": "387743",
+          "inodes_used": "136568",
+          "inodes_available": "387720",
           "inodes_percent_used": "27%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -1579,12 +1583,12 @@
         },
         "/run/shm": {
           "kb_size": "508140",
-          "kb_used": "8",
-          "kb_available": "508132",
+          "kb_used": "12",
+          "kb_available": "508128",
           "percent_used": "1%",
           "total_inodes": "127035",
-          "inodes_used": "3",
-          "inodes_available": "127032",
+          "inodes_used": "4",
+          "inodes_available": "127031",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1727,13 +1731,13 @@
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "101632",
-          "kb_used": "332",
-          "kb_available": "101300",
+          "kb_used": "336",
+          "kb_available": "101296",
           "percent_used": "1%",
           "mount": "/run",
           "total_inodes": "127035",
-          "inodes_used": "300",
-          "inodes_available": "126735",
+          "inodes_used": "302",
+          "inodes_available": "126733",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1747,13 +1751,13 @@
         "/dev/xvda1,/": {
           "device": "/dev/xvda1",
           "kb_size": "8115168",
-          "kb_used": "3169480",
-          "kb_available": "4510412",
-          "percent_used": "42%",
+          "kb_used": "3590472",
+          "kb_available": "4089420",
+          "percent_used": "47%",
           "mount": "/",
           "total_inodes": "524288",
-          "inodes_used": "136545",
-          "inodes_available": "387743",
+          "inodes_used": "136568",
+          "inodes_available": "387720",
           "inodes_percent_used": "27%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1802,13 +1806,13 @@
         "none,/run/shm": {
           "device": "none",
           "kb_size": "508140",
-          "kb_used": "8",
-          "kb_available": "508132",
+          "kb_used": "12",
+          "kb_available": "508128",
           "percent_used": "1%",
           "mount": "/run/shm",
           "total_inodes": "127035",
-          "inodes_used": "3",
-          "inodes_available": "127032",
+          "inodes_used": "4",
+          "inodes_available": "127031",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2002,7 +2006,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 30197,
+      "_AVPHYS_PAGES": 192082,
       "_NPROCESSORS_CONF": 1,
       "_NPROCESSORS_ONLN": 1,
       "_PHYS_PAGES": 254071,
@@ -4027,6 +4031,10 @@
         "version": "0.82.1ubuntu2.4",
         "arch": "all"
       },
+      "unzip": {
+        "version": "6.0-9ubuntu1.5",
+        "arch": "amd64"
+      },
       "update-manager-core": {
         "version": "1:0.196.23",
         "arch": "all"
@@ -4116,7 +4124,7 @@
       "/usr/bin/tmux",
       "/usr/bin/screen"
     ],
-    "ohai_time": 1496978471.2888188,
+    "ohai_time": 1497014903.6830945,
     "command": {
       "ps": "ps -ef"
     },
@@ -4201,22 +4209,22 @@
     },
     "root_group": "root",
     "recipes": [
-      "dotnet_app",
-      "dotnet_app::default"
+      "dotnet_core",
+      "dotnet_core::default"
     ],
     "expanded_run_list": [
-      "dotnet_app::default"
+      "dotnet_core::default"
     ],
     "roles": [
 
     ],
     "cookbooks": {
-      "dotnet_app": {
+      "dotnet_core": {
         "version": "0.1.0"
       }
     }
   },
   "run_list": [
-    "recipe[dotnet_app]"
+    "recipe[dotnet_core]"
   ]
 }

@@ -1,0 +1,9 @@
+{
+	"name" : "node",
+	"description" : "Runlist for installing dotnet core on ubuntu 14.04 and installing application",
+	"run_list" : ["recipe[dotnet_core]"],
+	"application" : {
+		"url" 	: "https://s3-us-west-2.amazonaws.com/andriconda-playground/New.zip",
+		"name" 	: "New"
+	}
+}
